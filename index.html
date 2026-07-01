@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palazzo Juayúa</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            <h1>Palazzo Juayúa</h1>
+            <p>Elegancia y sabor en cada platillo</p>
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= CARRUSEL ================= -->
+
+    <section class="carrusel" id="inicio">
+
+        <div class="slide activo">
+
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600">
+
+            <div class="texto">
+                <h2>Bienvenido a Palazzo Juayúa</h2>
+                <p>Donde la gastronomía se convierte en arte.</p>
+            </div>
+
+        </div>
+
+        <div class="slide">
+
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600">
+
+            <div class="texto">
+                <h2>Momentos inolvidables</h2>
+                <p>Disfruta de una experiencia única.</p>
+            </div>
+
+        </div>
+
+        <div class="slide">
+
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600">
+
+            <div class="texto">
+                <h2>Ingredientes Frescos</h2>
+                <p>Calidad en cada preparación.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PRODUCTOS ================= -->
+
+    <section id="menu">
+
+        <h2 class="titulo">Nuestro Menú</h2>
+
+        <div class="productos">
+
+            <!-- Producto 1 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600">
+
+                <h3>Bruschettas</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Pan artesanal tostado con tomate fresco,
+                        aceite de oliva y albahaca.
+                    </p>
+
+                    <strong>$8.50</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 2 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600">
+
+                <h3>Ensalada César</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Lechuga romana, pollo a la parrilla,
+                        queso parmesano y aderezo César.
+                    </p>
+
+                    <strong>$10.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 3 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600">
+
+                <h3>Tabla de Quesos y Embutidos</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Selección gourmet de quesos y embutidos
+                        acompañados de frutas y pan artesanal.
+                    </p>
+
+                    <strong>$18.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 4 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600">
+
+                <h3>Filete de Res en Salsa de Champiñones</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Jugoso filete de res bañado
+                        en salsa cremosa de champiñones.
+                    </p>
+
+                    <strong>$22.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 5 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600">
+
+                <h3>Salmón al Horno</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Salmón horneado acompañado
+                        de vegetales frescos.
+                    </p>
+
+                    <strong>$24.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 6 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600">
+
+                <h3>Lasaña de Carne</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Lasaña tradicional con carne,
+                        salsa boloñesa y queso gratinado.
+                    </p>
+
+                    <strong>$14.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 7 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1608500218808-8475b0d50b71?w=600">
+
+                <h3>Puré de Papa</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Puré cremoso elaborado con
+                        mantequilla y crema fresca.
+                    </p>
+
+                    <strong>$5.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 8 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600">
+
+                <h3>Arroz con Verduras</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Arroz salteado con vegetales
+                        frescos y especias.
+                    </p>
+
+                    <strong>$6.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 9 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600">
+
+                <h3>Tiramisú</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Tradicional postre italiano
+                        elaborado con café y mascarpone.
+                    </p>
+
+                    <strong>$7.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 10 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600">
+
+                <h3>Brownie con Helado</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Brownie caliente acompañado
+                        de helado de vainilla.
+                    </p>
+
+                    <strong>$7.50</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 11 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1511389026070-a14ae610a1be?w=600">
+
+                <h3>Mousse de Chocolate</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Delicioso mousse artesanal
+                        de chocolate.
+                    </p>
+
+                    <strong>$6.50</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 12 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600">
+
+                <h3>Limonada con Fresa</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Refrescante limonada natural
+                        con fresas frescas.
+                    </p>
+
+                    <strong>$4.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 13 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1564419320461-6870880221ad?w=600">
+
+                <h3>Agua Mineral</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>Agua mineral bien fría.</p>
+
+                    <strong>$2.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 14 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600">
+
+                <h3>Café</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>Café premium recién preparado.</p>
+
+                    <strong>$3.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 15 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600">
+
+                <h3>Capuchino</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>Capuchino con espuma cremosa.</p>
+
+                    <strong>$4.00</strong>
+
+                </div>
+
+            </div>
+
+            <!-- Producto 16 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600">
+
+                <h3>Jugos Naturales</h3>
+
+                <button onclick="mostrar(this)">
+                    Ver información
+                </button>
+
+                <div class="info">
+
+                    <p>
+                        Jugos preparados con fruta fresca de temporada.
+                    </p>
+
+                    <strong>$4.50</strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BOTÓN DE WHATSAPP -->
+
+    <a href="https://wa.me/50364466178?text=Hola, quisiera hacer un pedido de comida y bebida" class="whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+    </a>
+
+    <!-- FOOTER -->
+
+    <footer id="contacto">
+
+        <h3>Palazzo Juayúa</h3>
+
+        <p>📍 Juayúa, Sonsonate, El Salvador</p>
+
+        <p>📞 +503 6446-6178</p>
+
+        <p>📧 info@palazzojuayua.com</p>
+
+        <p>© 2026 Todos los derechos reservados.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
